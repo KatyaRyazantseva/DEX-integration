@@ -10,7 +10,7 @@ function Connector({ web3Connector }: { web3Connector: Web3Connector }) {
   const isActive = hooks.useIsActive()
   const changeNetwork = async() => {
       if (!window.ethereum) throw new Error("No crypto wallet found")
-      const chain = await window.ethereum.request({
+      const chain = await (window as any).ethereum.request({
         method: "wallet_addEthereumChain",
         params: [
           {
@@ -18,7 +18,7 @@ function Connector({ web3Connector }: { web3Connector: Web3Connector }) {
           }
         ]
       })
-      const chainId = await window.ethereum.request({
+      const chainId = await (window as any).ethereum.request({
         method: "eth_chainId"})
   }  
   const onClick = useCallback(() => {
