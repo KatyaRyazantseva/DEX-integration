@@ -1593,13 +1593,13 @@
   dependencies:
     "@web3-react/types" "^8.0.12-beta.0"
 
-"@web3-react/metamask@^8.0.0-beta.0":
-  "integrity" "sha512-5tHnEGUM7EhOJrbXJPdR7Sp7+tyPl9boB0hzVQdq4gKQ93GCTvwroKasQldJf3M/J1P20a5VIy1w9Ln4mYkr4w=="
-  "resolved" "https://registry.npmjs.org/@web3-react/metamask/-/metamask-8.0.0-beta.0.tgz"
-  "version" "8.0.0-beta.0"
+"@web3-react/metamask@^8.0.24-beta.0":
+  "integrity" "sha512-kCzWkGiha/7dn73DKB6LkSAsp+j6SdVnBg7Dp9EyInes2npwcIVl7PABQMop0g+7Drv4bpiJBwMIetcVHkr9sQ=="
+  "resolved" "https://registry.npmjs.org/@web3-react/metamask/-/metamask-8.0.24-beta.0.tgz"
+  "version" "8.0.24-beta.0"
   dependencies:
     "@metamask/detect-provider" "^1.2.0"
-    "@web3-react/types" "^8.0.0-beta.0"
+    "@web3-react/types" "^8.0.17-beta.0"
 
 "@web3-react/store@^8.0.17-beta.0":
   "integrity" "sha512-1JGkYs8HCd7ixLB5Yb7TZzz98QmCTvg0vhR+7s2m29wbp9ADsJN/EI9Avr1Kxi0UbRXTrXnEfgvl68HHmAC0GQ=="
@@ -1610,19 +1610,19 @@
     "@web3-react/types" "^8.0.12-beta.0"
     "zustand" "^4.0.0-beta.3"
 
-"@web3-react/types@^8.0.0-beta.0":
-  "integrity" "sha512-6yVwgf+zOt2/o6l0DeZXJcKV/85rcafS3MSLk8c2l98Jw8THc+ZyOeLWb0TUBzj7rc5v+PoKz4Fs2wsf8LOJew=="
-  "resolved" "https://registry.npmjs.org/@web3-react/types/-/types-8.0.0-beta.0.tgz"
-  "version" "8.0.0-beta.0"
-  dependencies:
-    "zustand" "^4.0.0-beta.0"
-
 "@web3-react/types@^8.0.12-beta.0":
   "integrity" "sha512-BWz8RnpO0gdySjL62iURcn41ZDGxq4kokV2qbgqgASHwst5/uZ7RI2MJHTzn8vH0AUrCsg/y6E8oeTNsCAQvfg=="
   "resolved" "https://registry.npmjs.org/@web3-react/types/-/types-8.0.12-beta.0.tgz"
   "version" "8.0.12-beta.0"
   dependencies:
     "zustand" "^4.0.0-beta.3"
+
+"@web3-react/types@^8.0.17-beta.0":
+  "integrity" "sha512-5zh+BrykylyN29P18/rNPFVVOI4Go/jYLwl5a/55eb5X1wgCfPU62ZBiVeKIOWBCwJ558uie31p909xJjeE2ig=="
+  "resolved" "https://registry.npmjs.org/@web3-react/types/-/types-8.0.17-beta.0.tgz"
+  "version" "8.0.17-beta.0"
+  dependencies:
+    "zustand" "^4.0.0-rc.0"
 
 "@web3-react/url@^8.0.17-beta.0":
   "integrity" "sha512-03fGMa22wdabeCNrD2sIr/IePn+VoL0Bbpyz0jJrh9dUfrDEgsLrtcdmktLhfM4LCtGAye1W1FZpi/65mczSXA=="
@@ -5255,7 +5255,7 @@
   "resolved" "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   "version" "0.1.0"
 
-"zustand@^4.0.0-beta.0", "zustand@^4.0.0-beta.3":
+"zustand@^4.0.0-beta.3", "zustand@^4.0.0-rc.0":
   "integrity" "sha512-qgcs7zLqBdHu0PuT3GW4WCIY5SgXdsv30GQMu9Qpp1BA2aS+sNS8l4x0hWuyEhjXkN+701aGWawhKDv6oWJAcw=="
   "resolved" "https://registry.npmjs.org/zustand/-/zustand-4.0.0-rc.1.tgz"
   "version" "4.0.0-rc.1"
