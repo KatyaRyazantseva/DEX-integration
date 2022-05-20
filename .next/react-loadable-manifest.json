@@ -1,0 +1,26 @@
+{
+  "../node_modules/@uniswap/widgets/dist/index.js -> ./clientSideSmartOrderRouter-9a2469fa.js": {
+    "id": "../node_modules/@uniswap/widgets/dist/index.js -> ./clientSideSmartOrderRouter-9a2469fa.js",
+    "files": [
+      "static/chunks/node_modules_uniswap_widgets_dist_clientSideSmartOrderRouter-9a2469fa_js.js"
+    ]
+  },
+  "../node_modules/@uniswap/widgets/dist/index.js -> ./tokenlist.schema-4c1da21e.js": {
+    "id": "../node_modules/@uniswap/widgets/dist/index.js -> ./tokenlist.schema-4c1da21e.js",
+    "files": [
+      "static/chunks/node_modules_uniswap_widgets_dist_tokenlist_schema-4c1da21e_js.js"
+    ]
+  },
+  "../node_modules/@uniswap/widgets/dist/index.js -> ajv": {
+    "id": "../node_modules/@uniswap/widgets/dist/index.js -> ajv",
+    "files": [
+      "static/chunks/node_modules_ajv_lib_ajv_js.js"
+    ]
+  },
+  "../node_modules/@web3-react/metamask/dist/index.js -> @metamask/detect-provider": {
+    "id": "../node_modules/@web3-react/metamask/dist/index.js -> @metamask/detect-provider",
+    "files": [
+      "static/chunks/node_modules_metamask_detect-provider_dist_index_js.js"
+    ]
+  }
+}

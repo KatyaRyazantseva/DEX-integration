@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@metamask/detect-provider": "^1.2.0",
+        "@uniswap/widgets": "^1.0.10",
+        "@usedapp/core": "^1.0.2",
+        "@web3-react/core": "^8.0.23-beta.0",
+        "@web3-react/metamask": "^8.0.0-beta.0",
+        "@web3-react/types": "^8.0.12-beta.0",
+        "ethers": "^5.6.5",
+        "next": "latest",
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0",
+        "react-icons": "^4.3.1",
+        "react-redux": "^7.2.8",
+        "uniswap-dapp-integration-shared": "^1.0.3",
+        "uniswap-react": "^1.0.3"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.4",
+        "@types/react": "17.0.38",
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.5",
+        "prettier": "^2.5.1",
+        "prettier-plugin-tailwindcss": "^0.1.1",
+        "tailwindcss": "^3.0.7",
+        "typescript": "4.5.4"
+    }
+}
